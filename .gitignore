@@ -19,5 +19,15 @@
 *.tar.gz
 *.rar
 
+#User module files
+user/.mvn/*
+user/target/*
+user/.gitignore
+
+#Notification Module files
+notification/.mvn/*
+notification/target/*
+notification/.gitignore
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
