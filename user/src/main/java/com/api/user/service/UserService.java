@@ -12,7 +12,7 @@ public class UserService {
     @Autowired
     private UserRepository userRepo;
 
-    private String createUser(UserRequest request){
+    public String createUser(UserRequest request){
         try{
 
         }catch(Exception e){
